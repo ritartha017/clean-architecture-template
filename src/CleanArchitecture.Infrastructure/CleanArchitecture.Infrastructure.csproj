@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<AssemblyName>CleanArchitecture.Infrastructure</AssemblyName>
+	<RootNamespace>CleanArchitecture.Infrastructure</RootNamespace>
+	<LangVersion>10.0</LangVersion>
+	<WarningAsErrors>Nullable</WarningAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Application\CleanArchitecture.Application.csproj" />
+  </ItemGroup>
+
+</Project>
